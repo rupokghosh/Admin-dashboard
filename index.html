@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="logo"></div>
-        <div class="otherPages"></div>
-    </div>
-    <div class="header">
-        <div class="searchBar"></div>
-        <div class="profile"></div>
-    </div>
-    <div class="gridContainer">
-        <div class="text">Projects</div>
-        <div class="grid">1</div>
-        <div class="grid">2</div>
-        <div class="grid">3</div>
-        <div class="grid">4</div>
-        <div class="grid">5</div>
-        <div class="grid">6</div>
+    <div id="grandparent">
+        <div class="sidebar">
+            <div class="logo"></div>
+            <div class="otherPages"></div>
+        </div>
+            <div class="header">
+            <div class="searchBar">
+                <form id="form" role="search">
+                    <input type="search" id="query" name="q"
+                     placeholder="Search..."
+                     aria-label="Search through site content">
+                    <button>Search</button>
+                </form>
+            </div>
+            <div class="profile"></div>
+        </div>
+            <div class="gridContainer">
+            <div class="grid">1</div>
+            <div class="grid">2</div>
+            <div class="grid" id="announcement">3</div>
+            <div class="grid">4</div>
+            <div class="grid">5</div>
+            <div class="grid" id="trending">6</div>
+        </div>
     </div>
 </body>
 </html>

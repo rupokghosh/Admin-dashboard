@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#grandparent{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    background-color: burlywood;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: aquamarine;
+    grid-row: 1/4;
+
+}
+.header{
+    background-color: orange;
+    grid-column: 2/4;
+}
+.gridContainer{
+    background-color: paleturquoise;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.grid{
+    background-color: blueviolet;
+    margin: 20px;
+}
+#announcement{
+    column-span: 2;
+}
+#trending{
+
+}
