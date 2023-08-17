@@ -13,18 +13,42 @@ body{
 }
 
 .sidebar{
-    background-color: aquamarine;
+    background-color: black;
     grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    color: white;
 
 }
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    
+}
+img{
+    height: 40%;
+    width: 30%;
+    margin-bottom: 15px;
+}
+.otherPages{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
 .header{
-    background-color: orange;
+    background-color: grey;
     grid-column: 2/4;
 }
 .gridContainer{
-    background-color: paleturquoise;
+    background-color: #2B2B2B;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
 }
@@ -33,7 +57,7 @@ body{
     margin: 20px;
 }
 #announcement{
-    column-span: 2;
+
 }
 #trending{
 
