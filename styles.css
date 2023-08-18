@@ -44,7 +44,27 @@ img{
 .header{
     background-color: grey;
     grid-column: 2/4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
+.searchBar{
+    width: 70%;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 .gridContainer{
     background-color: #2B2B2B;
     display: grid;
