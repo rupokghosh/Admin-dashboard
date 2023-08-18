@@ -89,10 +89,13 @@ img{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+}
+.list{
+    gap: 10px;
 }
 .grid:hover{
     -webkit-transition: 0.5s;
@@ -100,6 +103,10 @@ img{
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
 }
+p{
+    padding: 10px;
+}
+
 #announcement{
 
 }
